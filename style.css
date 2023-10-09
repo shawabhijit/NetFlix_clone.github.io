@@ -1,0 +1,392 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(42, 39, 39);
+}
+.first-page{
+    background-image: url("bg1_netflix.jpg");
+    background-size: 1900px;
+    opacity: .9;
+    /* position: fixed; */
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100%;
+}
+.navber{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 60px;
+    margin-left: 117px;
+    margin-right: 117px;
+}
+
+.logo img{
+    background-color:transparent;
+    mix-blend-mode: difference;
+    height: 50px;
+    width: 250px;
+    margin: 10px 0px 0px 20px;
+}
+
+.nav-contant{
+    /* position: relative; */
+    top: 15px;
+    height: 40px;
+    width: 52vw;
+    margin: 0px 0px 0px -30px;
+}
+.nav-contant form{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.btn{
+    height: 40px;
+    width: 96px;
+    background-color: rgb(213, 17, 17);
+    border-radius: 4px;
+    margin-left: 20px;
+}
+.btn:hover{
+    background-color: rgb(150, 12, 12);
+    cursor: pointer;
+}
+.btn a{
+    color: white;
+    font-weight: bold;
+}
+
+#lang{
+    height: 40px;
+    width: 157px;
+    background-color: rgb(19, 19, 19);
+    border-radius: 4px;
+    margin-left: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.id-h{
+    background-color: white;
+}
+.id-h:hover{
+    border: 5px;
+    border: 4px solid white;
+}
+
+/* main containt */
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 80%;
+    margin-left: 150px;
+    /* border: 2px solid red; */
+    /* background-color: black; */
+}
+.main h1{
+    font-family: 'Balthazar', serif;
+    text-align: center;
+    color: white;
+    font-size: 3.7rem;
+    font-weight: bolder;
+}
+.main p{
+    color: white;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+.form{
+    position: relative;
+    top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.form h3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.input{
+    margin-top: 20px;
+    text-align: center;
+}
+.input input{
+    height: 70px;
+    width: 460px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    filter: opacity(80%);
+    font-size: 1rem;
+    font-weight: 100;
+    border-radius: 5px;
+}
+.input button{
+    height: 70px;
+    width: 341px;
+    background-color: rgb(234, 5, 5);
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: -100;
+    border-radius: 5px;
+}
+.input button:hover{
+    background-color: rgb(170, 19, 19);
+    cursor: pointer;
+}
+
+
+/* ....................section 2................... */
+.section-2{
+    background-color: black;
+    margin-top: 8px;
+    height: 600px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}  
+.sec2-con{
+    margin-left: 130px;
+    margin-right: 130px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sec2-con img{
+    align-items: center;
+    height: 370px;
+    width: 500px;
+}
+.left{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Young Serif', serif;
+
+    padding-right: 5px;
+}
+.left h2{
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: left;
+}
+.left p{
+    margin-top: 30px;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align:left;
+}
+
+/* .................Section 3.................. */
+
+.section-3{
+    background-color:black;
+    margin-top: 8px;
+    height: 600px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}  
+.sec3-con{
+    margin-left: 130px;
+    margin-right: 130px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sec3-right h2{
+    color: white;
+}
+.sec3-right p{
+    color: white;
+}
+.sec3-left{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Young Serif', serif;
+    padding-right: 5px;
+    background-image: url("mobile-0819.jpg");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 420px;
+}
+.ovrflow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    height: 128px;
+    width: 333px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    position: relative;
+    left: 23%;
+    top: 66%;
+    background-color: black;
+}
+.over-img img{
+    height: 100px;
+    width: 62px;
+}
+.over-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.over-con a{
+    color: rgb(41, 41, 235);
+}
+.sec3-right h2{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.sec3-right p{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* .........................answer and questions........... */
+
+.quaries{
+    font-family: sans-serif;
+    margin-top: 8px;
+    padding: 90px 0px;
+    background-color: black;
+}
+.quaries h2{
+    color: white;
+    text-align: center;
+    font-size: 3.3rem;
+    font-weight: bolder;
+}
+.qu{
+    position: relative;
+    left: 15%;
+    top: 30px;
+    margin: 10px;
+    width: 70%;
+}
+.qu button{
+    width: 100%;
+    text-align: left;
+    border: none;
+    background-color: rgb(71, 68, 68);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    left: 0px;
+    padding: 30px;
+    height: 100px;
+}
+.qu button:hover {
+    background-color:rgb(98, 96, 96) ;
+}
+.qu p{
+    padding-left: 30px;
+    background-color: rgb(71, 68, 68);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color:white;
+}
+
+.l-input{
+    /* margin-top: 70px; */
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.l-input h3{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 30px;
+}
+.l-input input{
+    height: 70px;
+    width: 460px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    filter: opacity(80%);
+    font-size: 1rem;
+    font-weight: 100;
+    border-radius: 5px;
+}
+.l-input button{
+    height: 70px;
+    width: 341px;
+    background-color: rgb(234, 5, 5);
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: -100;
+    border-radius: 5px;
+}
+.l-input button:hover{
+    background-color: rgb(170, 19, 19);
+    cursor: pointer;
+}
+
+/* .................footer................. */
+.conect{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.help{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 90px 117px 90px 117px;
+    padding: 0px 60px;
+    height: 328.8px;
+    width: 1172.84px;
+}
+.help ul{
+    display: flex;
+    flex-direction: row;
+}
+.help li{
+    list-style: none;
+    margin: 20px 0px 0px 15px;
+    width: 250px;
+}
+.help p{
+    color: rgb(168, 163, 163);
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.help p a{
+    color: rgb(168, 163, 163);
+    margin-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.help li a{
+    color:rgb(168, 163, 163);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.netflix h2{
+    position: relative;
+    top: 40px;
+    width: 150px;
+    color:rgb(168, 163, 163);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
